@@ -1,0 +1,43 @@
+:root {
+    --color1: #5D001E;
+    --color2: #E3E2DF;
+    --color3: #E3AFBC;
+    --color4: #9A1750;
+    --color5: #EE4C7C;
+}
+.title {
+    border-bottom: .5px solid var(--color1);
+    width: 92%;
+    margin: auto;
+    margin-top: 20px;
+    /* margin-bottom: 5px; */
+    background: var(--color3);
+}
+
+.techStrong {
+    margin-bottom: 5px;
+    background: var(--color2);
+    width: 92%;
+    margin: auto;
+    padding-top: 5px;
+}
+
+.techEnd {
+    border-bottom: .5px solid var(--color1);
+    width: 92%;
+    margin: auto;
+    padding-top: 5px;
+    background: var(--color2);
+}
+
+@media (min-width: 768px) {
+    .title {
+        font-size: 20px;
+    }
+    .techStrong, .techEnd {
+        font-size: 18px;
+    }
+    .techEnd {
+        margin-bottom: 10px;
+    }
+}

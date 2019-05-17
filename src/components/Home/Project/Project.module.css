@@ -1,0 +1,50 @@
+:root {
+    --color1: #5D001E;
+    --color2: #E3E2DF;
+    --color3: #E3AFBC;
+    --color4: #9A1750;
+    --color5: #EE4C7C;
+}
+
+.projectCard {
+    background: var(--color2);
+    border: 2px solid var(--color3);
+    box-shadow: 3px 3px 3px var(--color1);
+    color: black;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.description {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.portImages {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.title {
+    padding-top: 10px;
+}
+
+@media (min-width: 768px) {
+    .portImages {
+        width: 100%;
+    }
+    .projectCard {
+        width: 90%;
+        height: 95%;
+    }
+    .title {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .projectCard {
+        margin-bottom: 40px;
+    }
+}

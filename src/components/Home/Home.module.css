@@ -1,0 +1,32 @@
+
+.portfolioTitle {
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    transition: .1s ease-in-out;
+}
+
+.calc {
+    width: 50%;
+}
+
+@media (min-width: 768px) {
+    .portfolioTitle {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .portfolioContainer {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (min-width: 1400px) {
+    .portfolioContainer {
+        grid-template-columns: auto auto auto;
+    }
+}
