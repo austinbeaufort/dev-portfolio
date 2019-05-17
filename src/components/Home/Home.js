@@ -22,7 +22,7 @@ const Home = () => {
                 <Project 
                 img="https://i.ibb.co/W2fNxMc/formal.jpg" 
                 name="custom forms library"
-                description='Implemented React using "DRY" principals to develop a user friendly "fun" forms library'
+                description='Implemented React using "DRY" principles to develop a user friendly forms library'
                 description2='Utilized resuabled components and props to keep codebase clean'/>
                 <Project 
                 img="https://i.ibb.co/SN120M3/calc2.jpg" 
