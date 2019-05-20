@@ -3,7 +3,6 @@ import styles from './Home.module.css';
 import Project from './Project/Project';
 import TechSkills from './TechSkills/TechSkills';
 import Navbar from '../Navbar/Navbar';
-import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (

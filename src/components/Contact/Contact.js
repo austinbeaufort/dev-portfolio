@@ -1,9 +1,8 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import styles from './Contact.module.css';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, Label, Input } from 'reactstrap';
 import Navbar from '../Navbar/Navbar';
-import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
