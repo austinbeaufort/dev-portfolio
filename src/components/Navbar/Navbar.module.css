@@ -47,6 +47,10 @@
     font-weight: bold;
 }
 
+.button:active {
+    outline: none;
+}
+
 @media (min-width: 768px) {
     .navTitle {
         font-size: 20px;

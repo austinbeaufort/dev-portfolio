@@ -2,11 +2,13 @@ import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 import styles from './Contact.module.css';
 import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
-
+import Navbar from '../Navbar/Navbar';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     return (
         <div>
+            <Navbar title="View Portfolio"/>
             <h6 className={styles.title}>Hello, it's Great to Meet You</h6>
             <div className={styles.iconContainer}>
                 <Form action="mailto:austinbeaufort7@gmail.com" method="post" className={styles.form}>
