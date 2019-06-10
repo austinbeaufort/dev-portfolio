@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "hompage": "https://austinbeaufort.github.io/portfolio/",
+  "homepage": "https://austinbeaufort.github.io/portfolio/",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "gh-pages": "^2.0.1",

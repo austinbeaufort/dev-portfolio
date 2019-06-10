@@ -9,7 +9,7 @@ import Contact from './components/Contact/Contact';
 class App extends Component {
   render() {
     return (
-      <HashRouter basename="/">
+      <HashRouter basename='/'>
           <div className="App">
             <Route path='/' exact strict component={Home} />
             <Route path='/contact' exact strict component={Contact} />
