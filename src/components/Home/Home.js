@@ -46,6 +46,12 @@ const Home = () => {
                     description='Implemented data structure knowledge to store and access digit grid and quotes data'
                     description2='Applied css grid and appropriate color choices in design to create a better UI/UX' />
                 <Project 
+                    img="https://i.ibb.co/GcMfSnL/diceapp.jpg" 
+                    demo="https://austinbeaufort.github.io/custom-dice/"
+                    source="https://github.com/austinbeaufort/custom-dice"
+                    name="Dice App"
+                    description='Utilized OOP in JavaScript with Classes and split the code into reusable modules when possible.'/>
+                <Project 
                     img="https://i.ibb.co/82HTMmy/string.jpg" 
                     demo="https://www.npmjs.com/package/string-of-pearls"
                     source="https://github.com/austinbeaufort/string-of-pearls"
