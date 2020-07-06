@@ -53,7 +53,7 @@ const Home = () => {
                     description='Integrated OOP concepts and Encapsulation using Classes with Typescript to organize the app.'
                     description2='Bundled application with Parcel and deployed to github pages.'/>
                 <Project 
-                    img="https://i.ibb.co/1Z0js7C/gofish.jpg" 
+                    img="https://i.ibb.co/mRJkFf4/rsz-gofish.jpg" 
                     demo="https://austinbeaufort.github.io/go-fish/"
                     source="https://github.com/austinbeaufort/go-fish"
                     name="Go Fish Card Game"
@@ -74,7 +74,7 @@ const Home = () => {
                     description='Implemented React using "DRY" principles to develop a user friendly forms library'
                     description2='Utilized resuabled components and props to keep codebase clean'/>
                 <Project 
-                    img="https://i.ibb.co/LYcBgDz/arduino.jpg" 
+                    img="https://i.ibb.co/61HYYfM/rsz-arduino.jpg" 
                     demo="https://www.youtube.com/watch?v=qW54L7L4NZg&t"
                     source="https://github.com/austinbeaufort/iot-arduino-phone-websockets"
                     name="IOT Microcontroller Project"

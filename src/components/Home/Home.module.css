@@ -9,9 +9,10 @@
 }
 
 .workExperience {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 3px;
     text-align: left;
-    padding-left: 30px;
-    padding-top: 15px;
     background: var(--color2);
     border: 2px solid var(--color3);
     box-shadow: 3px 3px 3px var(--color1);
@@ -29,9 +30,11 @@
     .portfolioTitle {
         font-size: 30px;
     }
-    .projectCard {
+    .workExperience {
         width: 90%;
         height: 95%;
+        padding-left: 30px;
+        padding-top: 15px;
     }
 }
 
@@ -40,13 +43,15 @@
         display: grid;
         grid-template-columns: auto auto;
     }
-    .projectCard {
+    .workExperience {
         margin-bottom: 40px;
+        padding-left: 50px;
+        padding-top: 15px;
     }
 }
 
 @media (min-width: 1400px) {
     .portfolioContainer {
-        grid-template-columns: auto auto auto;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 }
