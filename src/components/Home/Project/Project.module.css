@@ -33,7 +33,7 @@
 
 @media (min-width: 768px) {
     .portImages {
-
+        width: 100%;
     }
     .projectCard {
         width: 90%;
