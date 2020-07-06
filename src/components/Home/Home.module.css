@@ -8,6 +8,19 @@
     transition: .1s ease-in-out;
 }
 
+.workExperience {
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 15px;
+    background: var(--color2);
+    border: 2px solid var(--color3);
+    box-shadow: 3px 3px 3px var(--color1);
+    color: black;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
 .calc {
     width: 50%;
 }
@@ -16,12 +29,19 @@
     .portfolioTitle {
         font-size: 30px;
     }
+    .projectCard {
+        width: 90%;
+        height: 95%;
+    }
 }
 
 @media (min-width: 1000px) {
     .portfolioContainer {
         display: grid;
         grid-template-columns: auto auto;
+    }
+    .projectCard {
+        margin-bottom: 40px;
     }
 }
 
