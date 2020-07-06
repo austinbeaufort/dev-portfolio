@@ -22,6 +22,7 @@
     margin-bottom: 20px;
 }
 
+
 .calc {
     width: 50%;
 }
@@ -33,7 +34,7 @@
     .workExperience {
         width: 90%;
         height: 95%;
-        padding-left: 30px;
+        padding-left: 15px;
         padding-top: 15px;
     }
 }
@@ -41,9 +42,10 @@
 @media (min-width: 1000px) {
     .portfolioContainer {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: 1fr 1fr;
     }
     .workExperience {
+        width: 70%;
         margin-bottom: 40px;
         padding-left: 50px;
         padding-top: 15px;
