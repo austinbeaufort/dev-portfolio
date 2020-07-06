@@ -11,6 +11,8 @@ const Home = () => {
             <TechSkills />
             <h4 className={styles.portfolioTitle}>Professional Work Experience</h4>
             <div className={styles.workExperience}>
+                <h5><strong>Software Developer - Sesco LLC, Greensburg, PA</strong></h5>
+                <hr></hr>
                 <p><strong>Microservices (For Power Grid Data)</strong> - <i>NodeJS, GraphQL, Redis, InfluxDB</i></p>
                 <ul>
                     <li>Utilized a time series database (InfluxDB), for data storage and persistence.  </li>
