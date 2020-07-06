@@ -57,7 +57,8 @@ const Home = () => {
                     demo="https://austinbeaufort.github.io/go-fish/"
                     source="https://github.com/austinbeaufort/go-fish"
                     name="Go Fish Card Game"
-                    description='Applied regular expression knowledge to build a library that creates a better "developer experience" with strings'/>
+                    description='Created a custom npm library to use as the base Class for this card game https://www.npmjs.com/package/classic-deck'
+                    description2='Implemented JavaScript modules to structure code and bundled the modules with Parcel.'/>
                 <Project 
                     img="https://i.ibb.co/fxKjd7b/quiz.jpg" 
                     demo="https://austinbeaufort.github.io/quiz-shuffler/#/"
